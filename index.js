@@ -24,28 +24,33 @@ function start(){
             a = parseInt(prompt("a = "))
             b = parseInt(prompt("b = "))
             osszead(a, b)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik == "osszead2"){
             a = parseInt(prompt("a = "))
             b = parseInt(prompt("b = "))
             osszead2(a, b)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik == "multiply"){
             a = parseInt(prompt("a = "))
             b = parseInt(prompt("b = "))
             multiply(a, b)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik == "megszamol"){
             szoveg = prompt("Szöveg: ")
             megszamol(szoveg)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik == "megszamol2"){
             szoveg = prompt("Szöveg: ")
             megszamol2(szoveg)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik == "ketszerez"){
@@ -55,6 +60,7 @@ function start(){
                 tomb[i] = parseInt(prompt("Számok: "))
             }
             ketszerez(tomb)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik == "felhasznalok"){
@@ -64,6 +70,7 @@ function start(){
                 {name: "Hankó Ferike Kevin", age: 12}
             ]
             felhasznalok(users)
+            alert("Nyisd meg a konzolt!")
             break
         }
         else if(melyik != null){
